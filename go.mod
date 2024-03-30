@@ -1,4 +1,4 @@
-module goth
+module github.com/griffinmc22/griffin-templ
 
 go 1.22
 
