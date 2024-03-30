@@ -2,8 +2,9 @@ package tokenauth
 
 import (
 	"errors"
-	"goth/internal/store"
 	"time"
+
+	"github.com/griffinmc22/griffin-templ/internal/store"
 
 	"github.com/go-chi/jwtauth/v5"
 	"github.com/golang-jwt/jwt"

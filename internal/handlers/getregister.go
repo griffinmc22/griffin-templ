@@ -1,8 +1,9 @@
 package handlers
 
 import (
-	"goth/internal/templates"
 	"net/http"
+
+	"github.com/griffinmc22/griffin-templ/internal/templates"
 )
 
 type GetRegisterHandler struct{}

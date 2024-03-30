@@ -2,7 +2,8 @@ package dbstore
 
 import (
 	"errors"
-	"goth/internal/store"
+
+	"github.com/griffinmc22/griffin-templ/internal/store"
 )
 
 type UserStore struct {

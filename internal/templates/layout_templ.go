@@ -10,7 +10,7 @@ import "context"
 import "io"
 import "bytes"
 
-import "goth/internal/middleware"
+import "github.com/griffinmc22/griffin-templ/internal/middleware"
 
 func header(title string) templ.Component {
 	return templ.ComponentFunc(func(ctx context.Context, templ_7745c5c3_W io.Writer) (templ_7745c5c3_Err error) {

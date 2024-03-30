@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"goth/internal/store"
+	"github.com/griffinmc22/griffin-templ/internal/store"
 
 	"github.com/golang-jwt/jwt"
 )

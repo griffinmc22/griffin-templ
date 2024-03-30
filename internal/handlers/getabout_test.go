@@ -3,10 +3,11 @@ package handlers
 import (
 	"bytes"
 	"context"
-	"goth/internal/middleware"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/griffinmc22/griffin-templ/internal/middleware"
 
 	"github.com/stretchr/testify/assert"
 )

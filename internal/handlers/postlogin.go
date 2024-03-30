@@ -1,11 +1,12 @@
 package handlers
 
 import (
-	"goth/internal/auth"
-	"goth/internal/store"
-	"goth/internal/templates"
 	"net/http"
 	"time"
+
+	"github.com/griffinmc22/griffin-templ/internal/auth"
+	"github.com/griffinmc22/griffin-templ/internal/store"
+	"github.com/griffinmc22/griffin-templ/internal/templates"
 )
 
 type PostLoginHandler struct {

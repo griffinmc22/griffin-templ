@@ -4,9 +4,6 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"goth/internal/auth/tokenauth"
-	"goth/internal/handlers"
-	"goth/internal/store/dbstore"
 	"log/slog"
 	"net/http"
 	"os"
@@ -14,7 +11,11 @@ import (
 	"syscall"
 	"time"
 
-	m "goth/internal/middleware"
+	"github.com/griffinmc22/griffin-templ/internal/auth/tokenauth"
+	"github.com/griffinmc22/griffin-templ/internal/handlers"
+	"github.com/griffinmc22/griffin-templ/internal/store/dbstore"
+
+	m "github.com/griffinmc22/griffin-templ/internal/middleware"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"

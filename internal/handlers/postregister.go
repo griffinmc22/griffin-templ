@@ -1,9 +1,10 @@
 package handlers
 
 import (
-	"goth/internal/store"
-	"goth/internal/templates"
 	"net/http"
+
+	"github.com/griffinmc22/griffin-templ/internal/store"
+	"github.com/griffinmc22/griffin-templ/internal/templates"
 )
 
 type PostRegisterHandler struct {
